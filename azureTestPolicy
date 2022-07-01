@@ -17,7 +17,7 @@
                         "allOf": [
                             {
                                 "field": "location",
-                                "notIn": "['eastus',westus]" //Use an additional left bracket here, so the function is not invoked in the ARM template itself
+                                "notIn": "['eastus','westus']" //Use an additional left bracket here, so the function is not invoked in the ARM template itself
                             },
                             {
                                 "field": "location",
